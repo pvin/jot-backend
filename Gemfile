@@ -52,3 +52,6 @@ gem 'jwt'
 
 #A simple, standardized way to build and use Service Objects
 gem 'simple_command'
+
+#debugger
+gem 'pry'
