@@ -1,6 +1,7 @@
 class AuthorizeApiRequest
   prepend SimpleCommand
-
+  require 'json_web_token'
+  
   def initialize(headers = {})
     @headers = headers
   end
